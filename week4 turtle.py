@@ -2,8 +2,11 @@
 from turtle import * 
 import random
 
+window = Screen()
+window.bgcolor('#fcb1b1')
 colors = ['#b22b2b', '#ef3f3f', '#dd9494', '#f7b5b5','#c11010','#ba1717','#7a2929','#fc1717','ff5050']
 pensize(3)
+
 
 speed(0)
 pencolor('#6b0101')
