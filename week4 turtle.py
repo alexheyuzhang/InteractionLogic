@@ -9,8 +9,6 @@ pencolor('#6b0101')
 speed(0)
 
 
-
-
 def draw_shape():
     fillcolor(colors[0])
     begin_fill()
@@ -40,17 +38,22 @@ def draw_shape():
     end_fill()
     setheading(heading()+10)
 
-for i in range(38):
+for i in range(37):
   draw_shape()
-
 
 penup()
 goto(random.randint(-50,50))
 pendown()
 
-for b in range(38):
-  draw_shape()
-  
+for c in range (50):
+
+  for b in range(37):
+    draw_shape()
+
+  penup()
+  goto(random.randint(-10,100))
+  pendown()
+
 
 
 
