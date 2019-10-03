@@ -5,7 +5,7 @@ import random
 colors = ['#b22b2b', '#ef3f3f']
 #fillcolor('purple')
 pensize(3)
-#pencolor('#6b0101')
+pencolor('#6b0101')
 speed(0)
 
 
