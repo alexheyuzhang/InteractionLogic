@@ -2,38 +2,38 @@
 from turtle import * 
 import random
 
-colors = ['#b22b2b', '#ef3f3f']
-#fillcolor('purple')
+colors = ['#b22b2b', '#ef3f3f', '#dd9494', '#f7b5b5','#c11010','#ba1717','#7a2929','#fc1717','ff5050']
 pensize(3)
-pencolor('#6b0101')
+
 speed(0)
+pencolor('#6b0101')
 
 
 def draw_shape():
-    fillcolor(colors[0])
+    fillcolor(colors[random.randint(0,len(colors)-1)])
     begin_fill()
-    forward(20)
+    forward(15)
     left(50)
-    forward(20)
+    forward(15)
     left(130)
-    forward(20)
+    forward(15)
     left(50)
-    forward(20)
+    forward(15)
     end_fill()
-    fillcolor(colors[1])
+    fillcolor(colors[random.randint(0,len(colors)-1)])
     left(40)
-    forward(20)
+    forward(15)
     left(90)
-    forward(20)
+    forward(15)
     begin_fill()
     left(50)
-    forward(20)
+    forward(15)
     left(40)
-    forward(20)
+    forward(15)
     left(140)
-    forward(20)
+    forward(15)
     left(40)
-    forward(20)
+    forward(15)
     left(90)
     end_fill()
     setheading(heading()+10)
